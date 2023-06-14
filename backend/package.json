@@ -1,0 +1,28 @@
+{
+  "name": "quotes editor app backend",
+  "version": "1.0.0",
+  "description": "simple quotes editor app backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon  ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafayel Khachatryan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@hapi/joi-date": "^2.0.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-ip": "^1.0.4",
+    "mongoose": "^7.2.4",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
